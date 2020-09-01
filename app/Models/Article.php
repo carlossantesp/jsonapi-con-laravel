@@ -8,7 +8,6 @@ use Illuminate\Support\Str;
 
 class Article extends Model
 {
-    public $allowedSorts = ['title','content'];
 
     protected $guarded = [];
 
